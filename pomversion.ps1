@@ -12,7 +12,6 @@ $POMVersion = Get-POMVersion -Path $Path
 
 Write-Host "POMVersion = $($POMVersion)"
 
-#Pull all git tags
 #Write-Host "Pulling all tags"
 . git checkout master -q
 
